@@ -1,0 +1,61 @@
+<html>
+<head>
+<Title>
+Les Bissectrices 
+</Title>
+</head> 
+<body style="background-color: #800080;">
+<h1> IV) Les Bissectrices </h1>
+<h2> Definition : </h2>
+<h3> une bissectrice est une demi-droite qui coupe un angle en deux angles égaux. </h3>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta charset="utf-8"/>
+<script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<div id="ggbApplet"></div>
+<script>
+var parameters = {
+"id": "ggbApplet",
+"width":1806,
+"height":730,
+"showMenuBar":true,
+"showAlgebraInput":true,
+"showToolBar":true,
+"customToolBar":"0 73 62 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71  14  68 | 30 29 54 32 31 33 | 25 17 26 60 52 61 | 40 41 42 , 27 28 35 , 6",
+"showToolBarHelp":true,
+"showResetIcon":false,
+"enableLabelDrags":false,
+"enableShiftDragZoom":true,
+"enableRightClick":false,
+"errorDialogsActive":false,
+"useBrowserForJS":false,
+"allowStyleBar":false,
+"preventFocus":false,
+"showZoomButtons":true,
+"capturingThreshold":3,
+// add code here to run when the applet starts
+"appletOnLoad":function(api){ /* api.evalCommand('Segment((1,2),(3,4))');*/ },
+"showFullscreenButton":true,
+"scale":1,
+"disableAutoScale":false,
+"allowUpscale":false,
+"clickToLoad":false,
+"appName":"classic",
+"buttonRounding":0.7,
+"buttonShadows":false,
+"language":"fr",
+// use this instead of ggbBase64 to load a material from geogebra.org
+// "material_id":"RHYH3UQ8",
+// use this instead of ggbBase64 to load a .ggb file
+// "filename":"myfile.ggb",
+"ggbBase64":"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",
+};
+// is3D=is 3D applet using 3D view, AV=Algebra View, SV=Spreadsheet View, CV=CAS View, EV2=Graphics View 2, CP=Construction Protocol, PC=Probability Calculator DA=Data Analysis, FI=Function Inspector, macro=Macros
+var views = {'is3D': 0,'AV': 0,'SV': 0,'CV': 0,'EV2': 0,'CP': 0,'PC': 0,'DA': 0,'FI': 0,'macro': 0};
+var applet = new GGBApplet(parameters, '5.0', views);
+window.onload = function() {applet.inject('ggbApplet')};
+applet.setPreviewImage('data:image/gif;base64,R0lGODlhAQABAAAAADs=','https://www.geogebra.org/images/GeoGebra_loading.png','https://www.geogebra.org/images/applet_play.png');
+</script>
+</html>
+<h2> propriété </h2>
+<h3> lorsque les bissectrices se recoupe elles forment le cercle inscrit 
+<a href="file:///media/removable/Lexar/nael/travail/Maths/%20droites%20remarquables_2.html"> <center>retour </center></a>
